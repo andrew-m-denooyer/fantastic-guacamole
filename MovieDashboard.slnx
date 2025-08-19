@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MovieDashboard.ApiService/MovieDashboard.ApiService.csproj" />
+  <Project Path="MovieDashboard.AppHost/MovieDashboard.AppHost.csproj" />
+  <Project Path="MovieDashboard.ServiceDefaults/MovieDashboard.ServiceDefaults.csproj" />
+  <Project Path="MovieDashboard.Web/MovieDashboard.Web.csproj" />
+</Solution>

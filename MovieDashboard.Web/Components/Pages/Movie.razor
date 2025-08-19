@@ -1,8 +1,48 @@
 ﻿@page "/movie"
-@rendermode InteractiveServer
+@using MovieDashboard.Web
+@attribute [StreamRendering(true)]
+@attribute [OutputCache(Duration = 5)]
+
+@inject MovieDataApiClient MovieApi
 
 <PageTitle>Movie</PageTitle>
 
 <h1>Movie Details</h1>
 
 
+@if (movies == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <MudTable Items="@movies" Hover="true" Breakpoint="Breakpoint.Sm">
+        <ColGroup>
+            <col style="width:60px;" />
+            <col style="width:200px;" />
+            <col style="width:200px;" />
+            <col style="width:150px;" />
+        </ColGroup>
+        <HeaderContent>
+            <MudTh>Id</MudTh>
+            <MudTh>Title</MudTh>
+            <MudTh>Director</MudTh>
+            <MudTh>Release Date</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="Id">@context.Id</MudTd>
+            <MudTd DataLabel="Title">@context.Title</MudTd>
+            <MudTd DataLabel="Director">@context.Director</MudTd>
+            <MudTd DataLabel="Release Date">@context.ReleaseDate.ToShortDateString()</MudTd>
+        </RowTemplate>
+    </MudTable>
+}
+
+@code {
+    private MovieDashboard.Web.Movie[]? movies;
+
+    protected override async Task OnInitializedAsync()
+    {
+        movies = await MovieApi.GetMovieDataAsync();
+    }
+}

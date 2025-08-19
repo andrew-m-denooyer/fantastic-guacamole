@@ -17,12 +17,14 @@
 }
 else
 {
-    <MudTable Items="@movies?.ToList()" Hover="true" Breakpoint="Breakpoint.Sm">
+    <MudTable Items="@movies" Hover="true" Breakpoint="Breakpoint.Sm">
         <ColGroup>
-            <col style="width:60px;" />
-            <col style="width:200px;" />
-            <col style="width:200px;" />
-            <col style="width:150px;" />
+            <col style="width:100px;" />
+            <col style="width:50px;" />
+            <col />
+            <col />
+            <col />
+            <col />
         </ColGroup>
         <HeaderContent>
             <MudTh></MudTh>
@@ -33,43 +35,42 @@ else
         </HeaderContent>
         <RowTemplate>
             <MudTd>
-                <MudButton Variant="Variant.Outlined" Size="Size.Small" OnClick="@(() => ToggleShowDetails(context))">
-                    @(context.ShowDetails ? "Hide" : "Show") Characters
-                </MudButton>
+                <MudButton Variant="Variant.Outlined" Size="Size.Small" OnClick="@(() => ShowBtnPress(context.Id))">@((context.ShowDetails == true)? "Hide" : "Show") Characters</MudButton>
             </MudTd>
             <MudTd DataLabel="Id">@context.Id</MudTd>
             <MudTd DataLabel="Title">@context.Title</MudTd>
             <MudTd DataLabel="Director">@context.Director</MudTd>
-            <MudTd DataLabel="Release Date">@context.ReleaseDate.ToShortDateString()</MudTd>
+            <MudTd DataLabel="Release Date">@context.ReleaseDate?.ToShortDateString()</MudTd>
         </RowTemplate>
         <ChildRowContent>
             @if (context.ShowDetails)
             {
                 <MudTr>
-                    <MudTd ColSpan="5">
-                        @if (context.Characters != null && context.Characters.Length > 0)
-                        {
-                            <MudPaper Class="pa-4" Elevation="0">
-                                <h6>Characters</h6>
-                                <MudTable Items="@context.Characters" Dense="true">
-                                    <HeaderContent>
-                                        <MudTh>Id</MudTh>
-                                        <MudTh>Name</MudTh>
-                                        <MudTh>Actor</MudTh>
-                                    </HeaderContent>
-                                    <RowTemplate Context="character">
-                                        <MudTd DataLabel="Id">@character.Id</MudTd>
-                                        <MudTd DataLabel="Name">@character.Name</MudTd>
-                                        <MudTd DataLabel="Actor">@character.Actor</MudTd>
-                                    </RowTemplate>
-                                </MudTable>
-                            </MudPaper>
-                        }
-                        else
-                        {
-                            <MudText>No character data available.</MudText>
-                        }
-                    </MudTd>
+                    <td colspan="4">
+                        <MudCard Elevation="0">
+                            <MudCardHeader>
+                                <CardHeaderContent>
+                                    <MudText Typo="Typo.body1">Characters for <strong>@context.Title</strong></MudText>
+                                </CardHeaderContent>
+                            </MudCardHeader>
+                        </MudCard>
+                        <MudCardContent Class="pa-0">
+                            <MudTable Items="@context.Characters?.ToList()" Context="CharacterContext" Hover="true" Breakpoint="Breakpoint.Sm" Elevation="0">
+                                <ColGroup>
+                                    <col />
+                                    <col />
+                                </ColGroup>
+                                <HeaderContent>
+                                    <MudTh>Name</MudTh>
+                                    <MudTh>Actor</MudTh>
+                                </HeaderContent>
+                                <RowTemplate>
+                                    <MudTd DataLabel="Name">@CharacterContext.Name</MudTd>
+                                    <MudTd DataLabel="Actor">@CharacterContext.Actor</MudTd>
+                                </RowTemplate>
+                            </MudTable>
+                        </MudCardContent>
+                    </td>
                 </MudTr>
             }
         </ChildRowContent>
@@ -84,8 +85,10 @@ else
         movies = await MovieApi.GetMovieDataAsync();
     }
 
-    private void ToggleShowDetails(MovieDashboard.Web.Movie movie)
+    private void ShowBtnPress(int movieId)
     {
-        movie.ShowDetails = !movie.ShowDetails;
+        Console.WriteLine("Hello world!");
+        MovieDashboard.Web.Movie? tmpMovie = movies?.FirstOrDefault(m => m.Id == movieId);
+        tmpMovie!.ShowDetails = !tmpMovie.ShowDetails;
     }
 }

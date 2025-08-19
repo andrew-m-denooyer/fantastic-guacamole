@@ -1,33 +1,36 @@
-using System;
-
-namespace MovieDashboard.Web;
-
-public record Movie(int Id, string Title, string Director, DateTime ReleaseDate, Character[]? Characters)
+namespace MovieDashboard.Web
 {
-}
-
-public record Character(int Id, string Name, string Actor)
-{
-}
-
-public class MovieDataApiClient(HttpClient httpClient)
-{
-    public async Task<Movie[]> GetMovieDataAsync(int maxItems = 100, CancellationToken cancellationToken = default)
+    public class Movie
     {
-        List<Movie>? movies = null;
-        await foreach (var movie in httpClient.GetFromJsonAsAsyncEnumerable<Movie>("/movies", cancellationToken))
-        {
-            if (movie is null)
-            {
-                break;
-            }
+        public int Id { get; set; }
+        public string? Title { get; set; }
+        public string? Director { get; set; }
+        public DateTime? ReleaseDate { get; set; }
+        public Character[]? Characters { get; set; } = [];
+        public bool ShowDetails { get; set; }
+    }
 
-            if (movie is not null)
+    public record Character(int Id, string Name, string Actor);
+
+    public class MovieDataApiClient(HttpClient httpClient)
+    {
+        public async Task<Movie[]> GetMovieDataAsync(int maxItems = 100, CancellationToken cancellationToken = default)
+        {
+            List<Movie>? movies = null;
+            await foreach (var movie in httpClient.GetFromJsonAsAsyncEnumerable<Movie>("/movies", cancellationToken))
             {
-                movies ??= [];
-                movies.Add(movie);
+                if (movie is null)
+                {
+                    break;
+                }
+
+                if (movie is not null)
+                {
+                    movies ??= [];
+                    movies.Add(movie);
+                }
             }
+            return movies?.ToArray() ?? [];
         }
-        return movies?.ToArray() ?? [];
     }
 }

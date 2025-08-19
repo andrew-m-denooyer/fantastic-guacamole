@@ -1,5 +1,6 @@
 ﻿@page "/movie"
 @using MovieDashboard.Web
+@using MudBlazor
 @attribute [StreamRendering(true)]
 @attribute [OutputCache(Duration = 5)]
 
@@ -16,7 +17,7 @@
 }
 else
 {
-    <MudTable Items="@movies" Hover="true" Breakpoint="Breakpoint.Sm">
+    <MudTable Items="@movies?.ToList()" Hover="true" Breakpoint="Breakpoint.Sm">
         <ColGroup>
             <col style="width:60px;" />
             <col style="width:200px;" />
@@ -24,17 +25,54 @@ else
             <col style="width:150px;" />
         </ColGroup>
         <HeaderContent>
+            <MudTh></MudTh>
             <MudTh>Id</MudTh>
             <MudTh>Title</MudTh>
             <MudTh>Director</MudTh>
             <MudTh>Release Date</MudTh>
         </HeaderContent>
         <RowTemplate>
+            <MudTd>
+                <MudButton Variant="Variant.Outlined" Size="Size.Small" OnClick="@(() => ToggleShowDetails(context))">
+                    @(context.ShowDetails ? "Hide" : "Show") Characters
+                </MudButton>
+            </MudTd>
             <MudTd DataLabel="Id">@context.Id</MudTd>
             <MudTd DataLabel="Title">@context.Title</MudTd>
             <MudTd DataLabel="Director">@context.Director</MudTd>
             <MudTd DataLabel="Release Date">@context.ReleaseDate.ToShortDateString()</MudTd>
         </RowTemplate>
+        <ChildRowContent>
+            @if (context.ShowDetails)
+            {
+                <MudTr>
+                    <MudTd ColSpan="5">
+                        @if (context.Characters != null && context.Characters.Length > 0)
+                        {
+                            <MudPaper Class="pa-4" Elevation="0">
+                                <h6>Characters</h6>
+                                <MudTable Items="@context.Characters" Dense="true">
+                                    <HeaderContent>
+                                        <MudTh>Id</MudTh>
+                                        <MudTh>Name</MudTh>
+                                        <MudTh>Actor</MudTh>
+                                    </HeaderContent>
+                                    <RowTemplate Context="character">
+                                        <MudTd DataLabel="Id">@character.Id</MudTd>
+                                        <MudTd DataLabel="Name">@character.Name</MudTd>
+                                        <MudTd DataLabel="Actor">@character.Actor</MudTd>
+                                    </RowTemplate>
+                                </MudTable>
+                            </MudPaper>
+                        }
+                        else
+                        {
+                            <MudText>No character data available.</MudText>
+                        }
+                    </MudTd>
+                </MudTr>
+            }
+        </ChildRowContent>
     </MudTable>
 }
 
@@ -44,5 +82,10 @@ else
     protected override async Task OnInitializedAsync()
     {
         movies = await MovieApi.GetMovieDataAsync();
+    }
+
+    private void ToggleShowDetails(MovieDashboard.Web.Movie movie)
+    {
+        movie.ShowDetails = !movie.ShowDetails;
     }
 }

@@ -1,0 +1,332 @@
+{ "index" : { "_index": "movies" } }
+{ "title": "Jaws", "description": "When a killer shark unleashes chaos on a beach community, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast.", "director": "Steven Spielberg", "releaseDate": "1975-06-20", "characters": [
+  { "name": "Martin Brody", "actor": { "firstName": "Roy", "middleName": "", "lastName": "Scheider", "dateOfBirth": "1932-11-10", "nationality": "American" } },
+  { "name": "Matt Hooper", "actor": { "firstName": "Richard", "middleName": "D.", "lastName": "Dreyfuss", "dateOfBirth": "1947-10-29", "nationality": "American" } },
+  { "name": "Quint", "actor": { "firstName": "Robert", "middleName": "", "lastName": "Shaw", "dateOfBirth": "1927-08-09", "nationality": "British" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Rocky", "description": "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.", "director": "John G. Avildsen", "releaseDate": "1976-12-03", "characters": [
+  { "name": "Rocky Balboa", "actor": { "firstName": "Sylvester", "middleName": "", "lastName": "Stallone", "dateOfBirth": "1946-07-06", "nationality": "American" } },
+  { "name": "Apollo Creed", "actor": { "firstName": "Carl", "middleName": "", "lastName": "Weathers", "dateOfBirth": "1948-01-14", "nationality": "American" } },
+  { "name": "Adrian Pennino", "actor": { "firstName": "Talia", "middleName": "", "lastName": "Shire", "dateOfBirth": "1946-04-25", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Godfather", "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.", "director": "Francis Ford Coppola", "releaseDate": "1972-03-24", "characters": [
+  { "name": "Vito Corleone", "actor": { "firstName": "Marlon", "middleName": "", "lastName": "Brando", "dateOfBirth": "1924-04-03", "nationality": "American" } },
+  { "name": "Michael Corleone", "actor": { "firstName": "Al", "middleName": "", "lastName": "Pacino", "dateOfBirth": "1940-04-25", "nationality": "American" } },
+  { "name": "Sonny Corleone", "actor": { "firstName": "James", "middleName": "", "lastName": "Caan", "dateOfBirth": "1940-03-26", "nationality": "American" } },
+  { "name": "Tom Hagen", "actor": { "firstName": "Robert", "middleName": "", "lastName": "Duvall", "dateOfBirth": "1931-01-05", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Forrest Gump", "description": "Forrest Gump, a man with a low IQ, recounts the early years of his life when he found himself in the middle of key historical events.", "director": "Robert Zemeckis", "releaseDate": "1994-07-06", "characters": [
+  { "name": "Forrest Gump", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Hanks", "dateOfBirth": "1956-07-09", "nationality": "American" } },
+  { "name": "Jenny Curran", "actor": { "firstName": "Robin", "middleName": "", "lastName": "Wright", "dateOfBirth": "1966-04-08", "nationality": "American" } },
+  { "name": "Lt. Dan Taylor", "actor": { "firstName": "Gary", "middleName": "", "lastName": "Sinise", "dateOfBirth": "1955-03-17", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Back to the Future", "description": "A teenager is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, Dr. Emmett Brown.", "director": "Robert Zemeckis", "releaseDate": "1985-07-03", "characters": [
+  { "name": "Marty McFly", "actor": { "firstName": "Michael", "middleName": "J.", "lastName": "Fox", "dateOfBirth": "1961-06-09", "nationality": "Canadian-American" } },
+  { "name": "Dr. Emmett Brown", "actor": { "firstName": "Christopher", "middleName": "", "lastName": "Lloyd", "dateOfBirth": "1938-10-22", "nationality": "American" } },
+  { "name": "Lorraine Baines", "actor": { "firstName": "Lea", "middleName": "", "lastName": "Thompson", "dateOfBirth": "1961-05-31", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Star Wars: Episode IV - A New Hope", "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee, and two droids to save the galaxy from the Empire's world-destroying battle station.", "director": "George Lucas", "releaseDate": "1977-05-25", "characters": [
+  { "name": "Luke Skywalker", "actor": { "firstName": "Mark", "middleName": "", "lastName": "Hamill", "dateOfBirth": "1951-09-25", "nationality": "American" } },
+  { "name": "Han Solo", "actor": { "firstName": "Harrison", "middleName": "", "lastName": "Ford", "dateOfBirth": "1942-07-13", "nationality": "American" } },
+  { "name": "Princess Leia", "actor": { "firstName": "Carrie", "middleName": "", "lastName": "Fisher", "dateOfBirth": "1956-10-21", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "E.T. the Extra-Terrestrial", "description": "A troubled child summons the courage to help a friendly alien escape Earth and return to his home world.", "director": "Steven Spielberg", "releaseDate": "1982-06-11", "characters": [
+  { "name": "Elliott", "actor": { "firstName": "Henry", "middleName": "", "lastName": "Thomas", "dateOfBirth": "1971-09-09", "nationality": "American" } },
+  { "name": "Mary", "actor": { "firstName": "Dee", "middleName": "", "lastName": "Wallace", "dateOfBirth": "1948-12-14", "nationality": "American" } },
+  { "name": "Gertie", "actor": { "firstName": "Drew", "middleName": "", "lastName": "Barrymore", "dateOfBirth": "1975-02-22", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Jurassic Park", "description": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok.", "director": "Steven Spielberg", "releaseDate": "1993-06-11", "characters": [
+  { "name": "Dr. Alan Grant", "actor": { "firstName": "Sam", "middleName": "", "lastName": "Neill", "dateOfBirth": "1947-09-14", "nationality": "New Zealander-American" } },
+  { "name": "Dr. Ellie Sattler", "actor": { "firstName": "Laura", "middleName": "", "lastName": "Dern", "dateOfBirth": "1967-02-10", "nationality": "American" } },
+  { "name": "John Hammond", "actor": { "firstName": "Richard", "middleName": "", "lastName": "Attenborough", "dateOfBirth": "1923-08-29", "nationality": "British-American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Shawshank Redemption", "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.", "director": "Frank Darabont", "releaseDate": "1994-09-23", "characters": [
+  { "name": "Andy Dufresne", "actor": { "firstName": "Tim", "middleName": "", "lastName": "Robbins", "dateOfBirth": "1958-10-16", "nationality": "American" } },
+  { "name": "Ellis Boyd 'Red' Redding", "actor": { "firstName": "Morgan", "middleName": "", "lastName": "Freeman", "dateOfBirth": "1937-06-01", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Pulp Fiction", "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.", "director": "Quentin Tarantino", "releaseDate": "1994-10-14", "characters": [
+  { "name": "Vincent Vega", "actor": { "firstName": "John", "middleName": "", "lastName": "Travolta", "dateOfBirth": "1954-02-18", "nationality": "American" } },
+  { "name": "Jules Winnfield", "actor": { "firstName": "Samuel", "middleName": "L.", "lastName": "Jackson", "dateOfBirth": "1948-12-21", "nationality": "American" } },
+  { "name": "Mia Wallace", "actor": { "firstName": "Uma", "middleName": "", "lastName": "Thurman", "dateOfBirth": "1970-04-29", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Dark Knight", "description": "Batman raises the stakes in his war on crime, facing the Joker, a criminal mastermind who thrusts Gotham into anarchy.", "director": "Christopher Nolan", "releaseDate": "2008-07-18", "characters": [
+  { "name": "Bruce Wayne / Batman", "actor": { "firstName": "Christian", "middleName": "", "lastName": "Bale", "dateOfBirth": "1974-01-30", "nationality": "British-American" } },
+  { "name": "Joker", "actor": { "firstName": "Heath", "middleName": "", "lastName": "Ledger", "dateOfBirth": "1979-04-04", "nationality": "Australian-American" } },
+  { "name": "Harvey Dent", "actor": { "firstName": "Aaron", "middleName": "", "lastName": "Eckhart", "dateOfBirth": "1968-03-12", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Titanic", "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.", "director": "James Cameron", "releaseDate": "1997-12-19", "characters": [
+  { "name": "Jack Dawson", "actor": { "firstName": "Leonardo", "middleName": "", "lastName": "DiCaprio", "dateOfBirth": "1974-11-11", "nationality": "American" } },
+  { "name": "Rose DeWitt Bukater", "actor": { "firstName": "Kate", "middleName": "", "lastName": "Winslet", "dateOfBirth": "1975-10-05", "nationality": "British-American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Silence of the Lambs", "description": "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer.", "director": "Jonathan Demme", "releaseDate": "1991-02-14", "characters": [
+  { "name": "Clarice Starling", "actor": { "firstName": "Jodie", "middleName": "", "lastName": "Foster", "dateOfBirth": "1962-11-19", "nationality": "American" } },
+  { "name": "Dr. Hannibal Lecter", "actor": { "firstName": "Anthony", "middleName": "", "lastName": "Hopkins", "dateOfBirth": "1937-12-31", "nationality": "British-American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Saving Private Ryan", "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.", "director": "Steven Spielberg", "releaseDate": "1998-07-24", "characters": [
+  { "name": "Captain John H. Miller", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Hanks", "dateOfBirth": "1956-07-09", "nationality": "American" } },
+  { "name": "Private James Francis Ryan", "actor": { "firstName": "Matt", "middleName": "", "lastName": "Damon", "dateOfBirth": "1970-10-08", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Goodfellas", "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners.", "director": "Martin Scorsese", "releaseDate": "1990-09-19", "characters": [
+  { "name": "Henry Hill", "actor": { "firstName": "Ray", "middleName": "", "lastName": "Liotta", "dateOfBirth": "1954-12-18", "nationality": "American" } },
+  { "name": "James Conway", "actor": { "firstName": "Robert", "middleName": "", "lastName": "De Niro", "dateOfBirth": "1943-08-17", "nationality": "American" } },
+  { "name": "Tommy DeVito", "actor": { "firstName": "Joe", "middleName": "", "lastName": "Pesci", "dateOfBirth": "1943-02-09", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Matrix", "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.", "director": "Lana Wachowski, Lilly Wachowski", "releaseDate": "1999-03-31", "characters": [
+  { "name": "Neo", "actor": { "firstName": "Keanu", "middleName": "", "lastName": "Reeves", "dateOfBirth": "1964-09-02", "nationality": "Canadian-American" } },
+  { "name": "Morpheus", "actor": { "firstName": "Laurence", "middleName": "", "lastName": "Fishburne", "dateOfBirth": "1961-07-30", "nationality": "American" } },
+  { "name": "Trinity", "actor": { "firstName": "Carrie-Anne", "middleName": "", "lastName": "Moss", "dateOfBirth": "1967-08-21", "nationality": "Canadian-American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Raiders of the Lost Ark", "description": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers.", "director": "Steven Spielberg", "releaseDate": "1981-06-12", "characters": [
+  { "name": "Indiana Jones", "actor": { "firstName": "Harrison", "middleName": "", "lastName": "Ford", "dateOfBirth": "1942-07-13", "nationality": "American" } },
+  { "name": "Marion Ravenwood", "actor": { "firstName": "Karen", "middleName": "", "lastName": "Allen", "dateOfBirth": "1951-10-05", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Ghostbusters", "description": "Three former parapsychology professors set up shop as a unique ghost removal service.", "director": "Ivan Reitman", "releaseDate": "1984-06-08", "characters": [
+  { "name": "Peter Venkman", "actor": { "firstName": "Bill", "middleName": "", "lastName": "Murray", "dateOfBirth": "1950-09-21", "nationality": "American" } },
+  { "name": "Ray Stantz", "actor": { "firstName": "Dan", "middleName": "", "lastName": "Aykroyd", "dateOfBirth": "1952-07-01", "nationality": "Canadian-American" } },
+  { "name": "Egon Spengler", "actor": { "firstName": "Harold", "middleName": "", "lastName": "Ramis", "dateOfBirth": "1944-11-21", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Die Hard", "description": "An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.", "director": "John McTiernan", "releaseDate": "1988-07-15", "characters": [
+  { "name": "John McClane", "actor": { "firstName": "Bruce", "middleName": "", "lastName": "Willis", "dateOfBirth": "1955-03-19", "nationality": "American" } },
+  { "name": "Holly Gennaro McClane", "actor": { "firstName": "Bonnie", "middleName": "", "lastName": "Bedelia", "dateOfBirth": "1948-03-25", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Tootsie", "description": "An unsuccessful actor disguises himself as a woman to land a role on a soap opera, leading to unexpected success and complications.", "director": "Sydney Pollack", "releaseDate": "1982-12-17", "characters": [
+  { "name": "Michael Dorsey / Dorothy Michaels", "actor": { "firstName": "Dustin", "middleName": "", "lastName": "Hoffman", "dateOfBirth": "1937-08-08", "nationality": "American" } },
+  { "name": "Julie Nichols", "actor": { "firstName": "Jessica", "middleName": "", "lastName": "Lange", "dateOfBirth": "1949-04-20", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Breakfast Club", "description": "Five high school students meet in Saturday detention and discover they have a lot more in common than they thought.", "director": "John Hughes", "releaseDate": "1985-02-15", "characters": [
+  { "name": "John Bender", "actor": { "firstName": "Judd", "middleName": "", "lastName": "Nelson", "dateOfBirth": "1959-11-28", "nationality": "American" } },
+  { "name": "Claire Standish", "actor": { "firstName": "Molly", "middleName": "", "lastName": "Ringwald", "dateOfBirth": "1968-02-18", "nationality": "American" } },
+  { "name": "Andrew Clark", "actor": { "firstName": "Emilio", "middleName": "", "lastName": "Estevez", "dateOfBirth": "1962-05-12", "nationality": "American" } },
+  { "name": "Brian Johnson", "actor": { "firstName": "Anthony", "middleName": "", "lastName": "Michael Hall", "dateOfBirth": "1968-04-14", "nationality": "American" } },
+  { "name": "Allison Reynolds", "actor": { "firstName": "Ally", "middleName": "", "lastName": "Sheedy", "dateOfBirth": "1962-06-13", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Apollo 13", "description": "NASA must devise a strategy to return Apollo 13 to Earth safely after the spacecraft undergoes massive internal damage.", "director": "Ron Howard", "releaseDate": "1995-06-30", "characters": [
+  { "name": "Jim Lovell", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Hanks", "dateOfBirth": "1956-07-09", "nationality": "American" } },
+  { "name": "Fred Haise", "actor": { "firstName": "Bill", "middleName": "", "lastName": "Paxton", "dateOfBirth": "1955-05-17", "nationality": "American" } },
+  { "name": "Jack Swigert", "actor": { "firstName": "Kevin", "middleName": "", "lastName": "Bacon", "dateOfBirth": "1958-07-08", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "A Few Good Men", "description": "Military lawyers uncover a high-level conspiracy while defending two Marines accused of murder.", "director": "Rob Reiner", "releaseDate": "1992-12-11", "characters": [
+  { "name": "Lt. Daniel Kaffee", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Cruise", "dateOfBirth": "1962-07-03", "nationality": "American" } },
+  { "name": "Col. Nathan R. Jessup", "actor": { "firstName": "Jack", "middleName": "", "lastName": "Nicholson", "dateOfBirth": "1937-04-22", "nationality": "American" } },
+  { "name": "Lt. Cdr. JoAnne Galloway", "actor": { "firstName": "Demi", "middleName": "", "lastName": "Moore", "dateOfBirth": "1962-11-11", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Terminator", "description": "A cyborg assassin is sent from the future to kill Sarah Connor, whose unborn son will lead humanity in a war against machines.", "director": "James Cameron", "releaseDate": "1984-10-26", "characters": [
+  { "name": "Sarah Connor", "actor": { "firstName": "Linda", "middleName": "", "lastName": "Hamilton", "dateOfBirth": "1956-09-26", "nationality": "American" } },
+  { "name": "Kyle Reese", "actor": { "firstName": "Michael", "middleName": "", "lastName": "Biehn", "dateOfBirth": "1956-07-31", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Field of Dreams", "description": "An Iowa farmer hears a mysterious voice telling him to build a baseball diamond in his fields; he does, and the Chicago Black Sox come.", "director": "Phil Alden Robinson", "releaseDate": "1989-05-05", "characters": [
+  { "name": "Ray Kinsella", "actor": { "firstName": "Kevin", "middleName": "", "lastName": "Costner", "dateOfBirth": "1955-01-18", "nationality": "American" } },
+  { "name": "Shoeless Joe Jackson", "actor": { "firstName": "Ray", "middleName": "", "lastName": "Liotta", "dateOfBirth": "1954-12-18", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Graduate", "description": "A recent college graduate has an affair with an older woman, then falls in love with her daughter.", "director": "Mike Nichols", "releaseDate": "1967-12-22", "characters": [
+  { "name": "Benjamin Braddock", "actor": { "firstName": "Dustin", "middleName": "", "lastName": "Hoffman", "dateOfBirth": "1937-08-08", "nationality": "American" } },
+  { "name": "Mrs. Robinson", "actor": { "firstName": "Anne", "middleName": "", "lastName": "Bancroft", "dateOfBirth": "1931-09-17", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Platoon", "description": "A young recruit in Vietnam faces a moral crisis when confronted with the horrors of war and the duality of man.", "director": "Oliver Stone", "releaseDate": "1986-12-19", "characters": [
+  { "name": "Chris Taylor", "actor": { "firstName": "Charlie", "middleName": "", "lastName": "Sheen", "dateOfBirth": "1965-09-03", "nationality": "American" } },
+  { "name": "Sgt. Elias", "actor": { "firstName": "Willem", "middleName": "", "lastName": "Dafoe", "dateOfBirth": "1955-07-22", "nationality": "American" } },
+  { "name": "Sgt. Barnes", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Berenger", "dateOfBirth": "1949-05-31", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "American Beauty", "description": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.", "director": "Sam Mendes", "releaseDate": "1999-10-01", "characters": [
+  { "name": "Lester Burnham", "actor": { "firstName": "Kevin", "middleName": "", "lastName": "Spacey", "dateOfBirth": "1959-07-26", "nationality": "American" } },
+  { "name": "Carolyn Burnham", "actor": { "firstName": "Annette", "middleName": "", "lastName": "Bening", "dateOfBirth": "1958-05-29", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Lion King", "description": "After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.", "director": "Roger Allers, Rob Minkoff", "releaseDate": "1994-06-24", "characters": [
+  { "name": "Simba", "actor": { "firstName": "Matthew", "middleName": "", "lastName": "Broderick", "dateOfBirth": "1962-03-21", "nationality": "American" } },
+  { "name": "Mufasa", "actor": { "firstName": "James", "middleName": "", "lastName": "Earl Jones", "dateOfBirth": "1931-01-17", "nationality": "American" } },
+  { "name": "Scar", "actor": { "firstName": "Jeremy", "middleName": "", "lastName": "Irons", "dateOfBirth": "1948-09-19", "nationality": "British-American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Big Lebowski", "description": "Jeff Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and gets drawn into a complex kidnapping case.", "director": "Joel Coen, Ethan Coen", "releaseDate": "1998-03-06", "characters": [
+  { "name": "Jeffrey 'The Dude' Lebowski", "actor": { "firstName": "Jeff", "middleName": "", "lastName": "Bridges", "dateOfBirth": "1949-12-04", "nationality": "American" } },
+  { "name": "Walter Sobchak", "actor": { "firstName": "John", "middleName": "", "lastName": "Goodman", "dateOfBirth": "1952-06-20", "nationality": "American" } },
+  { "name": "Donny Kerabatsos", "actor": { "firstName": "Steve", "middleName": "", "lastName": "Buscemi", "dateOfBirth": "1957-12-13", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "A League of Their Own", "description": "Two sisters join the first female professional baseball league and struggle to help it succeed amidst their own growing rivalry.", "director": "Penny Marshall", "releaseDate": "1992-07-01", "characters": [
+  { "name": "Dottie Hinson", "actor": { "firstName": "Geena", "middleName": "", "lastName": "Davis", "dateOfBirth": "1956-01-21", "nationality": "American" } },
+  { "name": "Jimmy Dugan", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Hanks", "dateOfBirth": "1956-07-09", "nationality": "American" } },
+  { "name": "Kit Keller", "actor": { "firstName": "Lori", "middleName": "", "lastName": "Petty", "dateOfBirth": "1963-10-14", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Social Network", "description": "Harvard student Mark Zuckerberg creates the social networking site that would become Facebook, but is later sued by two brothers who claimed he stole their idea.", "director": "David Fincher", "releaseDate": "2010-10-01", "characters": [
+  { "name": "Mark Zuckerberg", "actor": { "firstName": "Jesse", "middleName": "", "lastName": "Eisenberg", "dateOfBirth": "1983-10-05", "nationality": "American" } },
+  { "name": "Eduardo Saverin", "actor": { "firstName": "Andrew", "middleName": "", "lastName": "Garfield", "dateOfBirth": "1983-08-20", "nationality": "American" } },
+  { "name": "Sean Parker", "actor": { "firstName": "Justin", "middleName": "", "lastName": "Timberlake", "dateOfBirth": "1981-01-31", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Princess Bride", "description": "A young woman and her true love must overcome obstacles, including an evil prince and a giant, to be reunited.", "director": "Rob Reiner", "releaseDate": "1987-09-25", "characters": [
+  { "name": "Westley", "actor": { "firstName": "Cary", "middleName": "", "lastName": "Elwes", "dateOfBirth": "1962-10-26", "nationality": "British-American" } },
+  { "name": "Buttercup", "actor": { "firstName": "Robin", "middleName": "", "lastName": "Wright", "dateOfBirth": "1966-04-08", "nationality": "American" } },
+  { "name": "Inigo Montoya", "actor": { "firstName": "Mandy", "middleName": "", "lastName": "Patinkin", "dateOfBirth": "1952-11-30", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Ferris Bueller's Day Off", "description": "A high school wise guy is determined to have a day off from school, despite what the principal thinks of that.", "director": "John Hughes", "releaseDate": "1986-06-11", "characters": [
+  { "name": "Ferris Bueller", "actor": { "firstName": "Matthew", "middleName": "", "lastName": "Broderick", "dateOfBirth": "1962-03-21", "nationality": "American" } },
+  { "name": "Cameron Frye", "actor": { "firstName": "Alan", "middleName": "", "lastName": "Ruck", "dateOfBirth": "1956-07-01", "nationality": "American" } },
+  { "name": "Sloane Peterson", "actor": { "firstName": "Mia", "middleName": "", "lastName": "Sara", "dateOfBirth": "1967-06-19", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Departed", "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.", "director": "Martin Scorsese", "releaseDate": "2006-10-06", "characters": [
+  { "name": "Billy Costigan", "actor": { "firstName": "Leonardo", "middleName": "", "lastName": "DiCaprio", "dateOfBirth": "1974-11-11", "nationality": "American" } },
+  { "name": "Colin Sullivan", "actor": { "firstName": "Matt", "middleName": "", "lastName": "Damon", "dateOfBirth": "1970-10-08", "nationality": "American" } },
+  { "name": "Frank Costello", "actor": { "firstName": "Jack", "middleName": "", "lastName": "Nicholson", "dateOfBirth": "1937-04-22", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Rain Man", "description": "After discovering his estranged brother is an autistic savant, a selfish man learns the value of family and compassion.", "director": "Barry Levinson", "releaseDate": "1988-12-16", "characters": [
+  { "name": "Raymond Babbitt", "actor": { "firstName": "Dustin", "middleName": "", "lastName": "Hoffman", "dateOfBirth": "1937-08-08", "nationality": "American" } },
+  { "name": "Charlie Babbitt", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Cruise", "dateOfBirth": "1962-07-03", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Green Mile", "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.", "director": "Frank Darabont", "releaseDate": "1999-12-10", "characters": [
+  { "name": "Paul Edgecomb", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Hanks", "dateOfBirth": "1956-07-09", "nationality": "American" } },
+  { "name": "John Coffey", "actor": { "firstName": "Michael", "middleName": "", "lastName": "Clarke Duncan", "dateOfBirth": "1957-12-10", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Pursuit of Happyness", "description": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional endeavor.", "director": "Gabriele Muccino", "releaseDate": "2006-12-15", "characters": [
+  { "name": "Chris Gardner", "actor": { "firstName": "Will", "middleName": "", "lastName": "Smith", "dateOfBirth": "1968-09-25", "nationality": "American" } },
+  { "name": "Christopher Gardner", "actor": { "firstName": "Jaden", "middleName": "", "lastName": "Smith", "dateOfBirth": "1998-07-08", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Sandlot", "description": "In the summer of 1962, a new kid in town is taken under the wing of a young baseball prodigy and his rowdy team, resulting in many adventures.", "director": "David Mickey Evans", "releaseDate": "1993-04-07", "characters": [
+  { "name": "Scotty Smalls", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Guiry", "dateOfBirth": "1981-10-12", "nationality": "American" } },
+  { "name": "Benjamin Franklin Rodriguez", "actor": { "firstName": "Mike", "middleName": "", "lastName": "Vitar", "dateOfBirth": "1978-12-21", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Blind Side", "description": "The story of Michael Oher, a homeless and traumatized boy who became an All American football player and first round NFL draft pick with the help of a caring woman and her family.", "director": "John Lee Hancock", "releaseDate": "2009-11-20", "characters": [
+  { "name": "Leigh Anne Tuohy", "actor": { "firstName": "Sandra", "middleName": "", "lastName": "Bullock", "dateOfBirth": "1964-07-26", "nationality": "American" } },
+  { "name": "Michael Oher", "actor": { "firstName": "Quinton", "middleName": "", "lastName": "Aaron", "dateOfBirth": "1984-08-15", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Fugitive", "description": "Dr. Richard Kimble, unjustly accused of murdering his wife, must find the real killer while being pursued by a relentless U.S. Marshal.", "director": "Andrew Davis", "releaseDate": "1993-08-06", "characters": [
+  { "name": "Dr. Richard Kimble", "actor": { "firstName": "Harrison", "middleName": "", "lastName": "Ford", "dateOfBirth": "1942-07-13", "nationality": "American" } },
+  { "name": "Samuel Gerard", "actor": { "firstName": "Tommy", "middleName": "Lee", "lastName": "Jones", "dateOfBirth": "1946-09-15", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Cast Away", "description": "A FedEx executive undergoes a physical and emotional transformation after crash landing on a deserted island.", "director": "Robert Zemeckis", "releaseDate": "2000-12-22", "characters": [
+  { "name": "Chuck Noland", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Hanks", "dateOfBirth": "1956-07-09", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Top Gun", "description": "As students at the United States Navy's elite fighter weapons school compete to be best in the class, one daring young pilot learns a few things from a civilian instructor that are not taught in the classroom.", "director": "Tony Scott", "releaseDate": "1986-05-16", "characters": [
+  { "name": "Pete 'Maverick' Mitchell", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Cruise", "dateOfBirth": "1962-07-03", "nationality": "American" } },
+  { "name": "Nick 'Goose' Bradshaw", "actor": { "firstName": "Anthony", "middleName": "", "lastName": "Edwards", "dateOfBirth": "1962-07-19", "nationality": "American" } },
+  { "name": "Charlotte 'Charlie' Blackwood", "actor": { "firstName": "Kelly", "middleName": "", "lastName": "McGillis", "dateOfBirth": "1957-07-09", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Mrs. Doubtfire", "description": "After a bitter divorce, an actor disguises himself as a female housekeeper to spend time with his children held in custody by his former wife.", "director": "Chris Columbus", "releaseDate": "1993-11-24", "characters": [
+  { "name": "Daniel Hillard / Mrs. Doubtfire", "actor": { "firstName": "Robin", "middleName": "", "lastName": "Williams", "dateOfBirth": "1951-07-21", "nationality": "American" } },
+  { "name": "Miranda Hillard", "actor": { "firstName": "Sally", "middleName": "", "lastName": "Field", "dateOfBirth": "1946-11-06", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Goonies", "description": "A group of young misfits set out to find a pirate's ancient treasure in order to save their home from foreclosure.", "director": "Richard Donner", "releaseDate": "1985-06-07", "characters": [
+  { "name": "Mikey Walsh", "actor": { "firstName": "Sean", "middleName": "", "lastName": "Astin", "dateOfBirth": "1971-02-25", "nationality": "American" } },
+  { "name": "Brand Walsh", "actor": { "firstName": "Josh", "middleName": "", "lastName": "Brolin", "dateOfBirth": "1968-02-12", "nationality": "American" } },
+  { "name": "Chunk", "actor": { "firstName": "Jeff", "middleName": "", "lastName": "Cohen", "dateOfBirth": "1974-06-25", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Outsiders", "description": "The rivalry between two gangs, the poor Greasers and the rich Socs, only heats up when one gang member kills a member of the other.", "director": "Francis Ford Coppola", "releaseDate": "1983-03-25", "characters": [
+  { "name": "Ponyboy Curtis", "actor": { "firstName": "C. Thomas", "middleName": "", "lastName": "Howell", "dateOfBirth": "1966-12-07", "nationality": "American" } },
+  { "name": "Johnny Cade", "actor": { "firstName": "Ralph", "middleName": "", "lastName": "Macchio", "dateOfBirth": "1961-11-04", "nationality": "American" } },
+  { "name": "Dallas Winston", "actor": { "firstName": "Matt", "middleName": "", "lastName": "Dillon", "dateOfBirth": "1964-02-18", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Stand by Me", "description": "After learning of a stranger's death, four boys embark on a hike to find the body, coming to terms with their own lives along the way.", "director": "Rob Reiner", "releaseDate": "1986-08-22", "characters": [
+  { "name": "Gordie Lachance", "actor": { "firstName": "Wil", "middleName": "", "lastName": "Wheaton", "dateOfBirth": "1972-07-29", "nationality": "American" } },
+  { "name": "Chris Chambers", "actor": { "firstName": "River", "middleName": "", "lastName": "Phoenix", "dateOfBirth": "1970-08-23", "nationality": "American" } },
+  { "name": "Teddy Duchamp", "actor": { "firstName": "Corey", "middleName": "", "lastName": "Feldman", "dateOfBirth": "1971-07-16", "nationality": "American" } },
+  { "name": "Vern Tessio", "actor": { "firstName": "Jerry", "middleName": "", "lastName": "O'Connell", "dateOfBirth": "1974-02-17", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Warriors", "description": "In New York City, a gang must make an urban journey home after being framed for the murder of a respected gang leader.", "director": "Walter Hill", "releaseDate": "1979-02-09", "characters": [
+  { "name": "Swan", "actor": { "firstName": "Michael", "middleName": "", "lastName": "Beck", "dateOfBirth": "1949-02-04", "nationality": "American" } },
+  { "name": "Ajax", "actor": { "firstName": "James", "middleName": "", "lastName": "Remar", "dateOfBirth": "1953-12-31", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Color Purple", "description": "A black Southern woman struggles to find her identity after suffering abuse from her father and others over four decades.", "director": "Steven Spielberg", "releaseDate": "1985-12-18", "characters": [
+  { "name": "Celie", "actor": { "firstName": "Whoopi", "middleName": "", "lastName": "Goldberg", "dateOfBirth": "1955-11-13", "nationality": "American" } },
+  { "name": "Shug Avery", "actor": { "firstName": "Margaret", "middleName": "", "lastName": "Avery", "dateOfBirth": "1944-01-20", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Help", "description": "An aspiring author during the civil rights movement of the 1960s writes a book detailing the African American maids' point of view on the white families for which they work.", "director": "Tate Taylor", "releaseDate": "2011-08-10", "characters": [
+  { "name": "Aibileen Clark", "actor": { "firstName": "Viola", "middleName": "", "lastName": "Davis", "dateOfBirth": "1965-08-11", "nationality": "American" } },
+  { "name": "Minny Jackson", "actor": { "firstName": "Octavia", "middleName": "", "lastName": "Spencer", "dateOfBirth": "1970-05-25", "nationality": "American" } },
+  { "name": "Skeeter Phelan", "actor": { "firstName": "Emma", "middleName": "", "lastName": "Stone", "dateOfBirth": "1988-11-06", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Poltergeist", "description": "A family's home is haunted by a host of ghosts, leading to terrifying and supernatural events.", "director": "Tobe Hooper", "releaseDate": "1982-06-04", "characters": [
+  { "name": "Diane Freeling", "actor": { "firstName": "JoBeth", "middleName": "", "lastName": "Williams", "dateOfBirth": "1948-12-06", "nationality": "American" } },
+  { "name": "Steve Freeling", "actor": { "firstName": "Craig", "middleName": "", "lastName": "T. Nelson", "dateOfBirth": "1944-04-04", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "To Kill a Mockingbird", "description": "Atticus Finch, a lawyer in the Depression-era South, defends a black man against an undeserved rape charge and his children against prejudice.", "director": "Robert Mulligan", "releaseDate": "1962-12-25", "characters": [
+  { "name": "Atticus Finch", "actor": { "firstName": "Gregory", "middleName": "", "lastName": "Peck", "dateOfBirth": "1916-04-05", "nationality": "American" } },
+  { "name": "Scout Finch", "actor": { "firstName": "Mary", "middleName": "", "lastName": "Badham", "dateOfBirth": "1952-10-07", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Risky Business", "description": "A Chicago teenager is left alone at home and turns his house into a brothel, leading to unexpected consequences.", "director": "Paul Brickman", "releaseDate": "1983-08-05", "characters": [
+  { "name": "Joel Goodsen", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Cruise", "dateOfBirth": "1962-07-03", "nationality": "American" } },
+  { "name": "Lana", "actor": { "firstName": "Rebecca", "middleName": "", "lastName": "De Mornay", "dateOfBirth": "1959-08-29", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "The Untouchables", "description": "Federal agent Eliot Ness sets out to stop Al Capone, assembling a team to help him bring down the notorious gangster.", "director": "Brian De Palma", "releaseDate": "1987-06-03", "characters": [
+  { "name": "Eliot Ness", "actor": { "firstName": "Kevin", "middleName": "", "lastName": "Costner", "dateOfBirth": "1955-01-18", "nationality": "American" } },
+  { "name": "Jim Malone", "actor": { "firstName": "Sean", "middleName": "", "lastName": "Connery", "dateOfBirth": "1930-08-25", "nationality": "British-American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Beetlejuice", "description": "A recently deceased couple hires a mischievous ghost to scare away the new inhabitants of their former home.", "director": "Tim Burton", "releaseDate": "1988-03-30", "characters": [
+  { "name": "Betelgeuse", "actor": { "firstName": "Michael", "middleName": "", "lastName": "Keaton", "dateOfBirth": "1951-09-05", "nationality": "American" } },
+  { "name": "Lydia Deetz", "actor": { "firstName": "Winona", "middleName": "", "lastName": "Ryder", "dateOfBirth": "1971-10-29", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Big", "description": "A young boy makes a wish to be big and wakes up in the body of an adult, learning about life and responsibility.", "director": "Penny Marshall", "releaseDate": "1988-06-03", "characters": [
+  { "name": "Josh Baskin", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Hanks", "dateOfBirth": "1956-07-09", "nationality": "American" } },
+  { "name": "Susan Lawrence", "actor": { "firstName": "Elizabeth", "middleName": "", "lastName": "Perkins", "dateOfBirth": "1960-11-18", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Rain Man", "description": "A selfish man discovers his estranged brother is an autistic savant, and learns the value of family and compassion.", "director": "Barry Levinson", "releaseDate": "1988-12-16", "characters": [
+  { "name": "Raymond Babbitt", "actor": { "firstName": "Dustin", "middleName": "", "lastName": "Hoffman", "dateOfBirth": "1937-08-08", "nationality": "American" } },
+  { "name": "Charlie Babbitt", "actor": { "firstName": "Tom", "middleName": "", "lastName": "Cruise", "dateOfBirth": "1962-07-03", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Driving Miss Daisy", "description": "An elderly Jewish widow and her African-American chauffeur develop a deep friendship over decades in the American South.", "director": "Bruce Beresford", "releaseDate": "1989-12-13", "characters": [
+  { "name": "Daisy Werthan", "actor": { "firstName": "Jessica", "middleName": "", "lastName": "Tandy", "dateOfBirth": "1909-06-07", "nationality": "British-American" } },
+  { "name": "Hoke Colburn", "actor": { "firstName": "Morgan", "middleName": "", "lastName": "Freeman", "dateOfBirth": "1937-06-01", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "Dead Poets Society", "description": "An English teacher inspires his students to seize the day and pursue their passions at a conservative boys' prep school.", "director": "Peter Weir", "releaseDate": "1989-06-09", "characters": [
+  { "name": "John Keating", "actor": { "firstName": "Robin", "middleName": "", "lastName": "Williams", "dateOfBirth": "1951-07-21", "nationality": "American" } },
+  { "name": "Neil Perry", "actor": { "firstName": "Robert", "middleName": "Sean", "lastName": "Leonard", "dateOfBirth": "1969-02-28", "nationality": "American" } }
+] }
+{ "index" : { "_index": "movies" } }
+{ "title": "When Harry Met Sally...", "description": "Harry and Sally navigate friendship and romance over years, questioning whether men and women can truly be friends.", "director": "Rob Reiner", "releaseDate": "1989-07-21", "characters": [
+  { "name": "Harry Burns", "actor": { "firstName": "Billy", "middleName": "", "lastName": "Crystal", "dateOfBirth": "1948-03-14", "nationality": "American" } },
+  { "name": "Sally Albright", "actor": { "firstName": "Meg", "middleName": "", "lastName": "Ryan", "dateOfBirth": "1961-11-19", "nationality": "American" } }
+] }

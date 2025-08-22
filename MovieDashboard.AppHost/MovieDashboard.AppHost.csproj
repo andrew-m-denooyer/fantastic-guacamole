@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MovieDashboard.ApiService\MovieDashboard.ApiService.csproj" />
     <ProjectReference Include="..\MovieDashboard.Web\MovieDashboard.Web.csproj" />
+    <ProjectReference Include="..\ElasticsearchSeeder\ElasticsearchSeeder.csproj" />
   </ItemGroup>
 
   <ItemGroup>

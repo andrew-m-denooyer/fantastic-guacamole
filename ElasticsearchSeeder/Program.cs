@@ -3,9 +3,9 @@ using Elastic.Clients.Elasticsearch;
 using Elastic.Clients.Elasticsearch.IndexManagement;
 using ExistsResponse = Elastic.Clients.Elasticsearch.IndexManagement.ExistsResponse;
 
-var elasticUrl = Environment.GetEnvironmentVariable("ELASTICSEARCH_URL") ?? "http://localhost:9200";
-ElasticsearchClientSettings settings = new ElasticsearchClientSettings(new Uri(elasticUrl));
-ElasticsearchClient client = new ElasticsearchClient(settings);
+var elasticUrl = "http://localhost:9200";
+// ElasticsearchClientSettings settings = new ElasticsearchClientSettings(new Uri(elasticUrl));
+ElasticsearchClient client = new ElasticsearchClient(new Uri(elasticUrl));
 
 Console.WriteLine($"Connecting to Elasticsearch at {elasticUrl}...");
 

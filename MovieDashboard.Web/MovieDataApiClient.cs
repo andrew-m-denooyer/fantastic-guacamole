@@ -17,18 +17,12 @@ namespace MovieDashboard.Web
         public async Task<Movie[]> GetMovieDataAsync(int maxItems = 100, CancellationToken cancellationToken = default)
         {
             List<Movie>? movies = null;
-            await foreach (var movie in httpClient.GetFromJsonAsAsyncEnumerable<Movie>("/movies", cancellationToken))
+            await foreach (Movie? movie in httpClient.GetFromJsonAsAsyncEnumerable<Movie>("/movies", cancellationToken))
             {
-                if (movie is null)
-                {
-                    break;
-                }
-
-                if (movie is not null)
-                {
-                    movies ??= [];
-                    movies.Add(movie);
-                }
+                if (movie is null) continue;
+                
+                movies ??= [];
+                movies.Add(movie);
             }
             return movies?.ToArray() ?? [];
         }

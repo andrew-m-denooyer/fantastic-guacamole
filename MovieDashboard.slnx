@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="ElasticsearchSeeder\ElasticsearchSeeder.csproj" Type="Classic C#" />
   <Project Path="MovieDashboard.ApiService/MovieDashboard.ApiService.csproj" />
   <Project Path="MovieDashboard.AppHost/MovieDashboard.AppHost.csproj" />
   <Project Path="MovieDashboard.ServiceDefaults/MovieDashboard.ServiceDefaults.csproj" />

@@ -1,5 +1,4 @@
-﻿using System.Text.Json;
-using Elastic.Clients.Elasticsearch;
+﻿using Elastic.Clients.Elasticsearch;
 using Elastic.Clients.Elasticsearch.IndexManagement;
 using ExistsResponse = Elastic.Clients.Elasticsearch.IndexManagement.ExistsResponse;
 
@@ -40,26 +39,26 @@ else
     Console.WriteLine("Bulk insert successful.");
 }
 
-
-internal class Movie
-{
-    public required string Title { get; set; }
-    public required string Description { get; set; }
-    public required string Director { get; set; }
-    public DateTime ReleaseDate { get; set; }
-    public Character[]? Characters { get; set; }
-}
-internal class Character
-{
-    public required string Name { get; set; }
-    public required Actor Actor { get; set; }
-}
-
-internal class Actor
-{
-    public required string FirstName { get; set; }
-    public string? MiddleName { get; set; }
-    public required string LastName { get; set; }
-    public DateTime DateOfBirth { get; set; }
-    public string? Nationality { get; set; }
-}
+//
+// internal class Movie
+// {
+//     public required string Title { get; set; }
+//     public required string Description { get; set; }
+//     public required string Director { get; set; }
+//     public DateTime ReleaseDate { get; set; }
+//     public Character[]? Characters { get; set; }
+// }
+// internal class Character
+// {
+//     public required string Name { get; set; }
+//     public required Actor Actor { get; set; }
+// }
+//
+// internal class Actor
+// {
+//     public required string FirstName { get; set; }
+//     public string? MiddleName { get; set; }
+//     public required string LastName { get; set; }
+//     public DateTime DateOfBirth { get; set; }
+//     public string? Nationality { get; set; }
+// }

@@ -1,4 +1,5 @@
 ﻿@page "/movie"
+@using Shared
 @rendermode InteractiveServer
 @attribute [StreamRendering(true)]
 @attribute [OutputCache(Duration = 5)]
@@ -19,7 +20,7 @@ else
     <MudTable T="Movie" Items="@Movies" Hover="true" OnRowClick="@OnRowClick" Breakpoint="Breakpoint.Sm" MultiSelection="true" SelectOnRowClick="false">
         <ColGroup>
             <col style="width:50px;" />
-            <col style="width:50px;" />
+            @* <col style="width:50px;" /> *@
             <col />
             <col />
             <col />
@@ -27,7 +28,7 @@ else
         </ColGroup>
         <HeaderContent>
             <MudTh></MudTh>
-            <MudTh>Id</MudTh>
+            @* <MudTh>Id</MudTh> *@
             <MudTh>Title</MudTh>
             <MudTh>Director</MudTh>
             <MudTh>Release Date</MudTh>
@@ -45,10 +46,10 @@ else
                 
                 @* <MudButton Variant="Variant.Outlined" Size="Size.Small" OnClick="@(() => ShowBtnPress(context))">@((context.ShowDetails == true) ? "Hide1" : "Show1") Characters</MudButton> *@
             </MudTd>
-            <MudTd DataLabel="Id">@context.Id</MudTd>
+            @* <MudTd DataLabel="Id">@context.Id</MudTd> *@
             <MudTd DataLabel="Title">@context.Title</MudTd>
             <MudTd DataLabel="Director">@context.Director</MudTd>
-            <MudTd DataLabel="Release Date">@context.ReleaseDate?.ToShortDateString()</MudTd>
+            <MudTd DataLabel="Release Date">@context.ReleaseDate.ToShortDateString()</MudTd>
         </RowTemplate>
         <ChildRowContent>
             @if (context.ShowDetails)

@@ -4,4 +4,5 @@
   <Project Path="MovieDashboard.AppHost/MovieDashboard.AppHost.csproj" />
   <Project Path="MovieDashboard.ServiceDefaults/MovieDashboard.ServiceDefaults.csproj" />
   <Project Path="MovieDashboard.Web/MovieDashboard.Web.csproj" />
+  <Project Path="Shared\Shared.csproj" Type="Classic C#" />
 </Solution>

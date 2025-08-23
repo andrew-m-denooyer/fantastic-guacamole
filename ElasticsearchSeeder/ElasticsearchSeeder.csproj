@@ -11,4 +11,10 @@
         <PackageReference Include="Elastic.Clients.Elasticsearch" Version="8.12.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="seed\movies.ndjson">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>

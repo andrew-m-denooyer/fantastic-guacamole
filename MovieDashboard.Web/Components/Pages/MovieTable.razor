@@ -20,7 +20,6 @@ else
     <MudTable T="Movie" Items="@Movies" Hover="true" OnRowClick="@OnRowClick" Breakpoint="Breakpoint.Sm" MultiSelection="true" SelectOnRowClick="false">
         <ColGroup>
             <col style="width:50px;" />
-            @* <col style="width:50px;" /> *@
             <col />
             <col />
             <col />
@@ -28,7 +27,6 @@ else
         </ColGroup>
         <HeaderContent>
             <MudTh></MudTh>
-            @* <MudTh>Id</MudTh> *@
             <MudTh>Title</MudTh>
             <MudTh>Director</MudTh>
             <MudTh>Release Date</MudTh>
@@ -43,10 +41,7 @@ else
                 {
                     <MudIconButton Icon="fas fa-plus" Color="Color.Tertiary" OnClick="@(() => ShowBtnPress(context))" />
                 }
-                
-                @* <MudButton Variant="Variant.Outlined" Size="Size.Small" OnClick="@(() => ShowBtnPress(context))">@((context.ShowDetails == true) ? "Hide1" : "Show1") Characters</MudButton> *@
             </MudTd>
-            @* <MudTd DataLabel="Id">@context.Id</MudTd> *@
             <MudTd DataLabel="Title">@context.Title</MudTd>
             <MudTd DataLabel="Director">@context.Director</MudTd>
             <MudTd DataLabel="Release Date">@context.ReleaseDate.ToShortDateString()</MudTd>
@@ -59,7 +54,7 @@ else
                         <MudCard Elevation="0">
                             <MudCardHeader>
                                 <CardHeaderContent>
-                                    <MudText Typo="Typo.body1">Characters for <strong>@context.Title</strong></MudText>
+                                    <MudText Typo="Typo.body1"><strong>@context.Description</strong></MudText>
                                 </CardHeaderContent>
                             </MudCardHeader>
                         </MudCard>
@@ -75,7 +70,7 @@ else
                                 </HeaderContent>
                                 <RowTemplate>
                                     <MudTd DataLabel="Name">@CharacterContext.Name</MudTd>
-                                    <MudTd DataLabel="Actor">@CharacterContext.Actor</MudTd>
+                                    <MudTd DataLabel="Actor">@CharacterContext.Actor.FirstName @CharacterContext.Actor.LastName</MudTd>
                                 </RowTemplate>
                             </MudTable>
                         </MudCardContent>

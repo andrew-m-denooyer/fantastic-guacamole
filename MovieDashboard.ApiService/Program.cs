@@ -37,34 +37,3 @@ app.MapGet("/movies", async () =>
 app.MapDefaultEndpoints();
 
 app.Run();
-
-// record Movie
-// {
-//     public required string Title { get; set; }
-//     public required string Description { get; set; }
-//     public required string Director { get; set; }
-//     public DateTime ReleaseDate { get; set; }
-//     public Character[]? Characters { get; set; }
-// }
-//
-// internal class Character
-// {
-//     public required string Name { get; set; }
-//     public required Actor Actor { get; set; }
-// }
-//
-// internal class Actor
-// {
-//     public required string FirstName { get; set; }
-//     public string? MiddleName { get; set; }
-//     public required string LastName { get; set; }
-//     public DateTime DateOfBirth { get; set; }
-//     public string? Nationality { get; set; }
-// }
-// record Movie(int Id, string Title, string Director, DateTime ReleaseDate, Character[]? Characters)
-// {
-// }
-
-// record Character(int Id, string Name, string Actor)
-// {
-// }
